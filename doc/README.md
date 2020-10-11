@@ -43,7 +43,3 @@ Error: nonavegador no encontrado
 -> En el navegador Firefox, para hacer que cada URL se abra en una ventana diferente, se tiene que incluir la opción --new-window.
 
 -> En el navegador Chrome, para hacer que cada URL se abra en una ventana diferente, se tiene que incluir la opción --new-window.
-
-## Entrega
-
-La entrega consistirá en un único fichero openurl.c. El fichero debe compilar conforme a los ficheros tasks.json o Makefile incluidos en los ficheros .tgz, es decir, con gcc -ggdb3 -Wall -Werror -Wno-unused -std=c11 openurl.c -o openurl. La primera línea de openurl.c debe ser la directiva para compilar conforme al estándar POSIX: #define \_POSIX_C_SOURCE 200809L.
